@@ -10,7 +10,7 @@ public class DriverPermit {
 
     private String permitNumber;
     private String permitCategory;
-    private String[] categories = {"G1", "G2", "G", "M"};
+    enum categories {G1, G2, G, M , Tarick_CATEGORY}
 
     /**
      * This method checks whether the format of the provided Driver's Permit is valid or not. Assume that the
