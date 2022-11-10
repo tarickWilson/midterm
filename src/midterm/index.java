@@ -66,6 +66,8 @@ public class index {
             
         } else {
             System.out.println("Invalid permit number");
+            getPermNo();
+            getCat();
         }
         
     }
