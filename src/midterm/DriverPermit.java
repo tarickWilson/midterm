@@ -74,6 +74,14 @@ public class DriverPermit {
         return permitCategory;
     }
 
+    public DriverPermit(String permitNumber, String permitCategory) {
+        this.permitNumber = permitNumber;
+        this.permitCategory = permitCategory;
+    }
+
+    public DriverPermit() {
+    }
+
     /**
      * A setter method to set the category of the permit.
      *
